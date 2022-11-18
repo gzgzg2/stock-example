@@ -10,7 +10,8 @@ spring:
     password: qkr!dnfka12
     hikari:
       maximum-pool-size: 40
-
+  redis:
+    password: vldpsxl1q2w3e
 logging:
   level:
     org:

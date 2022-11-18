@@ -1,9 +1,11 @@
 package com.example.stock.repository;
 
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Repository;
 
 import java.time.Duration;
 
+@Repository
 public class RedisRepository {
 
     private RedisTemplate<String, String> redisTemplate;

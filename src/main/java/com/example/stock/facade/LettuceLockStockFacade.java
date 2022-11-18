@@ -2,9 +2,9 @@ package com.example.stock.facade;
 
 import com.example.stock.repository.RedisRepository;
 import com.example.stock.service.StockService;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
 public class LettuceLockStockFacade {
 
     private final RedisRepository repository;
